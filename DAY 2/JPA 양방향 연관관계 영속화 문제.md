@@ -42,7 +42,7 @@ public class Item{
 }
 ```
 
-Store와 Item 두가지 엔티티가 존재하는데
+Store와 Item 두가지 엔티티 클래스를 작성했다
 
 Item 엔티티에서는 Store에 대해 `@ManyToOne`을 통해서 N:1 관계를 맺었다. 단방향 매핑만으로도 연관관계가 설정이 완료 되었지만, Store 엔티티 입장에서는 객체그래프 탐색을 통해서 Item 엔티티를 가져올 수 없다.
 
